@@ -6,7 +6,7 @@
     <x:Property Name="GlobalBakePath" Type="InArgument(x:String)" />
     <x:Property Name="AnalysisCode" Type="InArgument(x:String)" />
     <x:Property Name="BotStartTime" Type="InArgument(s:DateTime)" />
-    <x:Property Name="DT_ProcessLogs" Type="InArgument(sd:DataTable)" />
+    <x:Property Name="DT_ProcessLogs" Type="InOutArgument(sd:DataTable)" />
     <x:Property Name="SupplierMappingTemplatePath" Type="InArgument(x:String)" />
     <x:Property Name="BankAccountNumber" Type="InArgument(x:Int32)" />
     <x:Property Name="BankName" Type="InArgument(x:String)" />

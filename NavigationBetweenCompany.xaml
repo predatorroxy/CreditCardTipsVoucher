@@ -10,7 +10,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1530,6872</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1530,6832</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>NavigationBetweenCompany_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="21">
@@ -89,10 +89,7 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:UiElementExists DisplayName="Element Exists 'jade.exe [1]'" Exists="[windowExist]" sap:VirtualizedContainerService.HintSize="1456,106" sap2010:WorkflowViewState.IdRef="UiElementExists_5">
         <ui:UiElementExists.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="036a06f4-1f2e-461a-8ac0-01b727a3c2c6" InformativeScreenshot="3ce4ad05eae50a60ec0725b1e3caa8c9" Selector="&lt;wnd app='jade.exe' cls='Jade:form' title='*Menu*' /&gt;">
-            <ui:Target.TimeoutMS>
-              <InArgument x:TypeArguments="x:Int32" />
-            </ui:Target.TimeoutMS>
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="036a06f4-1f2e-461a-8ac0-01b727a3c2c6" InformativeScreenshot="3ce4ad05eae50a60ec0725b1e3caa8c9" Selector="&lt;wnd app='jade.exe' cls='Jade:form' title='*Menu*' /&gt;" TimeoutMS="3000">
             <ui:Target.WaitForReady>
               <InArgument x:TypeArguments="ui:WaitForReady" />
             </ui:Target.WaitForReady>
